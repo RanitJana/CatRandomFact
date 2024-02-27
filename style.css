@@ -8,8 +8,10 @@
 }
 
 body {
-    width: 100vw;
+    width: 100dvw;
     height: 100dvh;
+    min-height: 500px;
+    overflow-x: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
