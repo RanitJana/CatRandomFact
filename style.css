@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: cursive;
+    font-family: "Quicksand", sans-serif;
 }
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +43,7 @@ body .parent .text {
 }
 
 body .parent button {
-    background-color:blanchedalmond;
+    background-color: blanchedalmond;
     padding: 10px 15px;
     border-radius: 5px;
     border: none;
@@ -49,6 +51,7 @@ body .parent button {
     align-items: center;
     justify-content: center;
     font-size: medium;
+    font-weight: 600;
 }
 
 body .parent button img {
